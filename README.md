@@ -23,7 +23,7 @@
 ```cd BSC-Hello-World-Tutorial```
 3. **Install all the dependencies (node modules)**
 ```npm install```
-4. Create a ```.secret``` file with the secret phrase of MetaMask. Refer [here](https://metamask.zendesk.com/hc/en-us/articles/360015290032-How-to-reveal-your-Secret-Recovery-Phrase) for details on how to get MetaMask secret phrase.   
+4. **Create a ```.secret``` file with the secret phrase of MetaMask.** Refer [here](https://metamask.zendesk.com/hc/en-us/articles/360015290032-How-to-reveal-your-Secret-Recovery-Phrase) for details on how to get MetaMask secret phrase.   
 5. **Compile Smart Contracts**
 ```truffle compile```
 6. **Migrate Smart Contracts**
