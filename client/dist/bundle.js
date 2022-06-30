@@ -173,10 +173,6 @@ App = {
             App.contracts.HelloWorld.deployed().then(function(instance){
               return instance.setName.sendTransaction($('#name').val(),{from:App.currentAccount})
             }).then(function(result){
-                var receipt = web3.eth.getTransactionReceipt(txHash);
-                if(!(txhash == undefined)){
-                    document.getElementById("txhash").value = receipt.toString();
-                }
                 document.getElementById("name").value = "";
                 App.showMessage('Save Successful');
 
