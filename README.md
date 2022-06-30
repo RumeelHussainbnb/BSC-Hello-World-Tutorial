@@ -23,14 +23,15 @@
 ```cd BSC-Hello-World-Tutorial```
 3. **Install all the dependencies (node modules)**
 ```npm install```
-4. **Create a ```.secret``` file with the secret phrase of MetaMask.** Refer [here](https://metamask.zendesk.com/hc/en-us/articles/360015290032-How-to-reveal-your-Secret-Recovery-Phrase) for details on how to get MetaMask secret phrase.   
-5. **Compile Smart Contracts**
+4. **Install and Configure MetaMask Walelt**. Make sure that your MetaMask wallet is correctly installed and configured to connect to BSC Testnet. Refer to this [guide](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain) for details.
+5. **Create a ```.secret``` file with the secret phrase of MetaMask.** Refer [here](https://metamask.zendesk.com/hc/en-us/articles/360015290032-How-to-reveal-your-Secret-Recovery-Phrase) for details on how to get MetaMask secret phrase.   
+6. **Compile Smart Contracts**
 ```truffle compile```
-6. **Migrate Smart Contracts**
+7. **Migrate Smart Contracts**
 ```truffle migrate --reset --network bscTestnet```
-7. **Create build**
+8. **Create build**
 ```npm run build```
-8. **Run the application** ```npm run dev```
+9. **Run the application** ```npm run dev```
   
 >**Note:**    _Make Sure Nothing is Running on localhost:3000_
 
