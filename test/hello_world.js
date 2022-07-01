@@ -13,7 +13,7 @@ contract('HelloWorld', function(accounts) {
 
   //Test to check if the save button is working or not
   it('Should save name',async () => {
-    let result = await instance.setName.sendTransaction('Maryam',{from: accounts[0]}); 
+    let result = await instance.setName.sendTransaction('Rumeel',{from: accounts[0]}); 
     let message = await instance.getMessage.call({from: accounts[0]});           
     assert.equal(message, "Hello, Rumeel","Incorrect message.");        
   });
